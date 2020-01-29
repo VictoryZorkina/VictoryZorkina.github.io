@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('KaushanScript/KaushanScript-Regular.eot');
+	src: local('Kaushan Script'), local('KaushanScript-Regular'),
+	url('KaushanScript/KaushanScript-Regular.eot?#iefix') format('embedded-opentype'),
+	url('KaushanScript/KaushanScript-Regular.woff') format('woff'),
+	url('KaushanScript/KaushanScript-Regular.woff2') format('woff2'),
+	url('KaushanScript/KaushanScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Zhi Mang Xing';
+	src: url('ZhiMangXing/ZhiMangXing-Regular.eot');
+	src: local('ZhiMangXing/Zhi Mang Xing Regular'), local('ZhiMangXing-Regular'),
+	url('ZhiMangXing/ZhiMangXing-Regular.eot?#iefix') format('embedded-opentype'),
+	url('ZhiMangXing/ZhiMangXing-Regular.woff2') format('woff2'),
+	url('ZhiMangXing/ZhiMangXing-Regular.woff') format('woff'),
+	url('ZhiMangXing/ZhiMangXing-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'B52';
+	src: url('B52/B52.eot');
+	src: local('B52'),
+	url('B52/B52.eot?#iefix') format('embedded-opentype'),
+	url('B52/B52.woff') format('woff'),
+	url('B52/B52.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
