@@ -7,18 +7,17 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
- .s_bottom {
-  width:100%;
-  height:1000px;
+ .puzzle_car {
+   display: none;
  }
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-  .s_bottom {
-  width:100%;
-  height:800px;
+  .puzzle_car{
+    display: none;
+ }
 }
 
 /* Extra Small Devices, Phones */
