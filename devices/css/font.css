@@ -1,0 +1,90 @@
+/* font-family: "Gothambold"; */
+@font-face {
+	font-family: "Gothambold";
+	src: url("fonts/Gothambold/Gothambold.eot");
+	src: url("fonts/Gothambold/Gothambold.eot?#iefix")format("embedded-opentype"),
+	url("fonts/Gothambold/Gothambold.woff") format("woff"),
+	url("fonts/Gothambold/Gothambold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "GothamBook"; */
+@font-face {
+	font-family: "GothamBook";
+	src: url("fonts/GothamBook/GothamBook.eot");
+	src: url("fonts/GothamBook/GothamBook.eot?#iefix")format("embedded-opentype"),
+	url("fonts/GothamBook/GothamBook.woff") format("woff"),
+	url("fonts/GothamBook/GothamBook.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Gotham-Medium"; */
+@font-face {
+	font-family: "Gotham-Medium";
+	src: url("fonts/Gotham-Medium/Gotham-Medium.eot");
+	src: url("fonts/Gotham-Medium/Gotham-Medium.eot?#iefix")format("embedded-opentype"),
+	url("fonts/Gotham-Medium/Gotham-Medium.woff") format("woff"),
+	url("fonts/Gotham-Medium/Gotham-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "HelveticaLight"; */
+@font-face {
+	font-family: "HelveticaLight";
+	src: url("fonts/HelveticaLight/HelveticaLight.eot");
+	src: url("fonts/HelveticaLight/HelveticaLight.eot?#iefix")format("embedded-opentype"),
+	url("fonts/HelveticaLight/HelveticaLight.woff") format("woff"),
+	url("fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "OpenSans"; */
+@font-face {
+	font-family: "OpenSans";
+	src: url("fonts/OpenSans/OpenSans.eot");
+	src: url("fonts/OpenSans/OpenSans.eot?#iefix")format("embedded-opentype"),
+	url("fonts/OpenSans/OpenSans.woff") format("woff"),
+	url("fonts/OpenSans/OpenSans.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "OpenSans-Bold"; */
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("fonts/OpenSans-Bold/OpenSans-Bold.eot");
+	src: url("fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix")format("embedded-opentype"),
+	url("fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"),
+	url("fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+/* font-family: "RobotoCondensedBold"; */
+@font-face {
+	font-family: "RobotoCondensedBold";
+	src: url("fonts/RobotoCondensedBold/RobotoCondensedBold.eot");
+	src: url("fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix")format("embedded-opentype"),
+	url("fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"),
+	url("fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "MyriadPro-Regular"; */
+@font-face {
+	font-family: "MyriadPro-Regular";
+	src: url("fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+	src: url("fonts/MyriadPro-Regular/MyriadPro-Regular.ttf?#iefix")format("true-type"),
+	url("fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"),
+	url("fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
