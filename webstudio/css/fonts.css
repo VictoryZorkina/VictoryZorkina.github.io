@@ -1,0 +1,124 @@
+@font-face{
+	font-family: 'Arial-BoldMT';
+	src: url('fonts/Arial-BoldMT/Arial-BoldMT.eot') format('eot'),
+	url('fonts/Arial-BoldMT/Arial-BoldMT.woff') format('woff'),
+	url('fonts/Arial-BoldMT/Arial-BoldMT.ttf') format('truetype');
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'ArialMT';
+	src: url('fonts/ArialMT/ArialMT.eot') format('eot'),
+	url('fonts/ArialMT/ArialMT.woff') format('woff'),
+	url('fonts/ArialMT/ArialMT.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Exo2-Bold';
+	src: url('fonts/Exo2-Bold/Exo2-Bold.eot') format('eot'),
+	url('fonts/Exo2-Bold/Exo2-Bold.woff') format('woff'),
+	url('fonts/Exo2-Bold/Exo2-Bold.ttf') format('truetype');
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Exo2-SemiBold';
+	src: url('fonts/Exo2-SemiBold/Exo2-SemiBold.eot') format('eot'),
+	url('fonts/Exo2-SemiBold/Exo2-SemiBold.woff') format('woff'),
+	url('fonts/Exo2-SemiBold/Exo2-SemiBold.ttf') format('truetype');
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'FuturaMediumC';
+	src: url('fonts/FuturaMediumC/FuturaMediumC.eot') format('eot'),
+	url('fonts/FuturaMediumC/FuturaMediumC.woff') format('woff'),
+	url('fonts/FuturaMediumC/FuturaMediumC.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Futura-Normal';
+	url('fonts/Futura-Normal/FUTURA-N.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'HelveticaNeueCyr-Bold';
+	url('fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.otf') format('opentype');
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'HelveticaNeueCyr-Roman';
+	url('fonts/HelveticaNeueCyr-Roman/HelveticaNeueCyr-Roman.otf') format('opentype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'MyriadPro-Regular';
+	src: url('fonts/MyriadPro-Regular/MyriadPro-Regular.eot') format('eot'),
+	url('fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'),
+	url('fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Parangon530C';
+	url('fonts/Parangon530C/Parangon530C.otf') format('opentype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'PTSans-Caption';
+	src: url('fonts/PTSans-Caption/PTSans-Caption.eot') format('eot'),
+	url('fonts/PTSans-Caption/PTSans-Caption.woff') format('woff'),
+	url('fonts/PTSans-Caption/PTSans-Caption.woff2') format('woff2'),
+	url('fonts/PTSans-Caption/PTSans-Caption.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Tahoma-Bold';
+	src: url('fonts/Tahoma-Bold/Tahoma-Bold.eot') format('eot'),
+	url('fonts/Tahoma-Bold/Tahoma-Bold.woff') format('woff'),
+	url('fonts/Tahoma-Bold/Tahoma-Bold.ttf') format('truetype');
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'UniSansHeavyCAPS';
+	src: url('fonts/UniSansHeavyCAPS/UniSansHeavyCAPS.eot') format('eot'),
+	url('fonts/UniSansHeavyCAPS/UniSansHeavyCAPS.woff') format('woff'),
+	url('fonts/UniSansHeavyCAPS/UniSansHeavyCAPS.ttf') format('truetype');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+
