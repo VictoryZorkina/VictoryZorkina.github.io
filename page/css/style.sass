@@ -1,0 +1,430 @@
+$blue: #00718b
+$blue-light: #4a9da9
+$blue-lighter: #4d89bf
+$blue-dark: #4a5484
+$violet: #794c8f
+$green: #265131
+$green-light: #758b53
+$pink: #a94c5f
+$red: #c31b00
+$orange: #d5b200
+$orange-dark: #d0852c
+$orange-darken: #7a3b25
+$orange-light: #a47b50
+$maincolor: #404040
+$gray: #797979
+
+
+body
+	font-family: "PT Sans Narrow Regular", sans-serif
+	font-size: 16px
+	line-height: 1
+	color: $maincolor
+
+img
+	max-width: 100%
+	height: auto
+
+.to-top
+	position: fixed
+	z-index: 99
+	right: 3rem
+	bottom: 3rem
+	border: 1px solid $gray
+	background-color: white
+	width: 68px
+	height: 68px
+	background-image: url("../img/down-arrow.svg")
+	background-repeat: no-repeat
+	background-position: center
+	transition: opacity 0.3s
+	opacity: 0
+	visibility: hidden
+	@media (max-width: 992px)
+		right: 1rem
+		bottom: 1rem
+		width: 50px
+		height: 50px
+.to-top--visible
+	opacity: 1
+	visibility: visible
+
+
+
+.block-layers
+	display: block
+	width: 47px
+	height: 47px
+	margin-right: 14px
+	@media (max-width: 1400px)
+		margin-right: 6px
+	@media (max-width: 1200px)
+		margin-right: 4px
+	@media (max-width: 992px)
+		width: 36px
+		height: 36px
+		margin-right: 8px
+	.first-layer
+		display: block
+	.second-layer
+		display: none
+.block-library
+	.text-paragraph
+		@media (max-width: 1200px)
+			font-size: 16px
+	&:hover
+		font-family: "PT Sans Narrow Bold", sans-serif
+		.second-layer
+			display: block
+		.first-layer
+			display: none
+
+		.hover-effect-01
+			background-color: $blue-light
+
+		.hover-effect-02
+			background-color: $blue-lighter
+
+		.hover-effect-03
+			background-color: $blue-dark
+
+		.hover-effect-04
+			background-color: $violet
+
+		.hover-effect-05
+			background-color: $green
+
+		.hover-effect-06
+			background-color: $green-light
+
+		.hover-effect-07
+			background-color: $pink
+
+		.hover-effect-08
+			background-color: $red
+
+		.hover-effect-09
+			background-color: $orange
+
+		.hover-effect-10
+			background-color: $orange-dark
+
+		.hover-effect-11
+			background-color: $orange-darken
+
+		.hover-effect-12
+			background-color: $orange-light
+	img
+		max-width: unset
+		width: 31px
+		height: 31px
+		@media (max-width: 992px)
+			width: 20px
+			height: 20px
+	.text-paragraph
+		@media (max-width: 992px)
+			font-size: 15px
+
+
+
+p
+	font-family: "Arsenal-Regular", sans-serif
+	color: #3f3f3f
+
+
+.container-xxl
+	max-width: 1614px
+	padding-right: 15px
+	padding-left: 15px
+	margin-right: auto
+	margin-left: auto
+	@media (min-width: 576px)
+		.container-xxl
+			max-width: 540px
+	@media (min-width: 768px)
+		.container-xxl
+			max-width: 720px
+	@media (min-width: 992px)
+		.container-xxl
+			max-width: 960px
+	@media (min-width: 1200px)
+		.container
+			max-width: 1140px
+	@media (min-width: 1600px)
+		.container
+			max-width: 1200px
+
+
+
+.btn-language
+	font-size: 20px
+	padding: 14px 19px
+	border: 1px solid transparent
+	letter-spacing: 0.72px
+	font-family: "PT Sans Narrow Bold", sans-serif
+	&:hover
+		border: 1px solid $gray
+
+.btn-social-link
+	position: relative
+	background-color: #dddddd
+	border-radius: 2px
+	color: white
+	padding: 4px 16px 4px 28px
+	font-size: 15px
+	&:hover
+		color: white
+		background-color: rgba($maincolor, .7)
+		.btn-social-fb
+			background-image: url("../img/icon_facebook.svg")
+		.btn-social-tw
+			background-image: url("../img/icon_twitter.svg")
+
+.btn-social-tw,
+.btn-social-fb
+	position: absolute
+	top: 2px
+	left: 2px
+	width: 19px
+	height: 19px
+	background-repeat: no-repeat
+	background-size: 19px 19px
+	background-position: top left
+
+.btn-social-fb
+	background-image: url("../img/icon-fb.svg")
+
+
+.btn-social-tw
+	background-image: url("../img/twitter-icon.svg")
+
+
+.btn
+	border-radius: 0
+
+.header-banner
+	background-image: url("../img/banner.png")
+	background-repeat: no-repeat
+	background-size: 100%
+	background-position: top center
+	@media (max-width: 1650px)
+		padding-top: 0 !important
+		padding-bottom: 0 !important
+	@media (max-width: 1120px)
+		background-size: 120%
+	@media (max-width: 1060px)
+		background-size: 130%
+	@media (max-width: 992px)
+		background-size: auto
+		background-position: center left
+
+.header-leftside
+	@media (max-width: 1800px)
+		padding-left: 80px
+	@media (max-width: 1650px)
+		padding-left: 120px
+		padding-bottom: 60px !important
+	@media (max-width: 1320px)
+		padding-left: 80px
+		padding-bottom: 40px !important
+	@media (max-width: 1024px)
+		padding: 30px 15px !important
+.header-leftside
+	h1
+		@media (max-width: 1500px)
+			font-size: 48px
+			padding: 30px 0 !important
+		@media (max-width: 1230px)
+			width: 120%
+		@media (max-width: 1200px)
+			font-size: 40px
+			width: 100%
+			padding: 20px 0 !important
+	p
+		@media (max-width: 1500px)
+			font-size: 16px
+			padding: 0 !important
+			margin: 0 !important
+		@media (max-width: 1230px)
+			width: 100%
+		@media (max-width: 1024px)
+			width: 100%
+
+
+
+
+.header-title
+	font-size: 55px
+	line-height: 1
+	@media (max-width: 1200px)
+		font-size: 40px
+
+.block-title
+	font-size: 45px
+	line-height: 1
+	@media (max-width: 1200px)
+		font-size: 40px
+
+.block-title-library
+	position: relative
+	&:after
+		content: '+'
+		font-size: 70px
+		position: absolute
+		top: -10px
+		right: 30px
+		font-family: "PT Sans Narrow Regular", sans-serif
+	@media (max-width: 1200px)
+		font-size: 32px
+		&:after
+			font-size: 60px
+			right: 0
+	@media (max-width: 992px)
+		&:after
+			font-size: 50px
+			right: 50%
+			top: 100%
+
+.text-paragraph
+	font-size: 18px
+
+.header-text
+	line-height: 22px
+	letter-spacing: 1.5px
+
+.text-spacing
+	letter-spacing: 2.25px
+
+.text-blue
+	color: $blue
+
+.text-blue-light
+	color: $blue-light
+
+.text-blue-lighter
+	color: $blue-lighter
+
+.text-blue-dark
+	color: $blue-dark
+
+.text-violet
+	color: $violet
+
+.text-green
+	color: $green
+
+.text-green-light
+	color: $green-light
+
+.text-pink
+	color: $pink
+
+.text-red
+	color: $red
+
+.text-orange
+	color: $orange
+
+.text-orange-dark
+	color: $orange-dark
+
+.text-orange-darken
+	color: $orange-darken
+
+.text-orange-light
+	color: $orange-light
+
+.bg-blue
+	background-color: $blue
+
+
+.library-footer
+	position: absolute
+	bottom: 0
+	right: 20px
+	width: 90%
+	@media (max-width: 576px)
+		bottom: -40px
+
+
+.library-img-wrap-01,
+.library-img-wrap-02,
+.library-img-wrap-03,
+.library-img-wrap-04,
+.library-img-wrap-05,
+.library-img-wrap-06,
+.library-img-wrap-07,
+.library-img-wrap-08,
+.library-img-wrap-09,
+.library-img-wrap-10,
+.library-img-wrap-11,
+.library-img-wrap-12,
+.library-img-wrap-13,
+.library-img-wrap-14
+	display: block
+	margin: auto
+	width: 325px
+	height: 339px
+	background-repeat: no-repeat
+	background-size: 100%
+	background-position: top left
+	@media (max-width: 375px)
+		width: 290px
+		height: auto
+		padding: unset
+		display: flex
+		justify-content: center
+		align-items: center
+
+.library-img-wrap-01
+	padding: 48px 72px 43px 25px
+	background-image: url("../img/lib_bg_01.png")
+.library-img-wrap-02
+	padding: 48px 23px 43px 85px
+	background-image: url("../img/lib_bg_02.png")
+.library-img-wrap-03
+	padding: 48px 73px 43px 50px
+	background-image: url("../img/lib_bg_03.png")
+.library-img-wrap-04
+	padding: 48px 54px 43px 54px
+	background-image: url("../img/lib_bg_04.png")
+.library-img-wrap-05
+	padding: 83px 30px 92px 31px
+	background-image: url("../img/lib_bg_05.png")
+.library-img-wrap-06
+	padding: 48px 86px 43px 22px
+	background-image: url("../img/lib_bg_06.png")
+.library-img-wrap-07
+	padding: 51px 49px 53px 45px
+	background-image: url("../img/lib_bg_07.png")
+.library-img-wrap-08
+	padding: 80px 38px 80px 38px
+	background-image: url("../img/lib_bg_08.png")
+.library-img-wrap-09
+	padding: 83px 44px 77px 40px
+	background-image: url("../img/lib_bg_09.png")
+.library-img-wrap-10
+	padding: 63px 53px 61px 55px
+	background-image: url("../img/lib_bg_10.png")
+.library-img-wrap-11
+	padding: 48px 73px 43px 50px
+	background-image: url("../img/lib_bg_11.png")
+.library-img-wrap-12
+	padding: 77px 33px 72px 47px
+	background-image: url("../img/lib_bg_12.png")
+.library-img-wrap-13
+	padding: 66px 47px 61px 47px
+	background-image: url("../img/lib_bg_13.png")
+.library-img-wrap-14
+	padding: 47px 53px 42px 53px
+	background-image: url("../img/lib_bg_14.png")
+
+footer
+	font-size: 25px
+	@media (max-width: 1600px)
+		font-size: 18px
+	@media (max-width: 475px)
+		font-size: 14px
+
+.footer-title
+	font-family: "PT Sans Narrow Bold", sans-serif
