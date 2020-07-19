@@ -1,0 +1,56 @@
+@font-face {font-family: "ALSRubl";
+	src: url("ALSRubl/ALSRubl.eot"); /* IE9*/
+	src: url("ALSRubl/ALSRubl.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("ALSRubl/ALSRubl.woff2") format("woff2"), /* chrome、firefox */
+	url("ALSRubl/ALSRubl.woff") format("woff"), /* chrome、firefox */
+	url("ALSRubl/ALSRubl.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("ALSRubl/ALSRubl.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "MyriadPro-Semibold";
+	src: url("MyriadPro/MyriadPro-Semibold.eot"); /* IE9*/
+	src: url("MyriadPro/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("MyriadPro/MyriadPro-Semibold.woff2") format("woff2"), /* chrome、firefox */
+	url("MyriadPro/MyriadPro-Semibold.woff") format("woff"), /* chrome、firefox */
+	url("MyriadPro/MyriadPro-Semibold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("MyriadPro/MyriadPro-Semibold.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "MyriadPro-Regular";
+	src: url("MyriadPro/MyriadPro-Regular.eot"); /* IE9*/
+	src: url("MyriadPro/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("MyriadPro/MyriadPro-Regular.woff2") format("woff2"), /* chrome、firefox */
+	url("MyriadPro/MyriadPro-Regular.woff") format("woff"), /* chrome、firefox */
+	url("MyriadPro/MyriadPro-Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("MyriadPro/MyriadPro-Regular.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "MyriadPro-Bold";
+	src: url("MyriadPro/MyriadPro-Bold.eot"); /* IE9*/
+	src: url("MyriadPro/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("MyriadPro/MyriadPro-Bold.woff2") format("woff2"), /* chrome、firefox */
+	url("MyriadPro/MyriadPro-Bold.woff") format("woff"), /* chrome、firefox */
+	url("MyriadPro/MyriadPro-Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("MyriadPro/MyriadPro-Bold.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "OpenSans-Regular";
+	src: url("OpenSans/OpenSans-Regular.eot"); /* IE9*/
+	src: url("OpenSans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("OpenSans/OpenSans-Regular.woff2") format("woff2"), /* chrome、firefox */
+	url("OpenSans/OpenSans-Regular.woff") format("woff"), /* chrome、firefox */
+	url("OpenSans/OpenSans-Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("OpenSans/OpenSans-Regular.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "OpenSans-Semibold";
+	src: url("OpenSans/OpenSans-Semibold.eot"); /* IE9*/
+	src: url("OpenSans/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("OpenSans/OpenSans-Semibold.woff2") format("woff2"), /* chrome、firefox */
+	url("OpenSans/OpenSans-Semibold.woff") format("woff"), /* chrome、firefox */
+	url("OpenSans/OpenSans-Semibold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("OpenSans/OpenSans-Semibold.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "slick";
+	src: url("slick/slick.eot"); /* IE9*/
+	src: url("slick/slick.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("slick/slick.woff") format("woff"), /* chrome、firefox */
+	url("slick/slick.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("slick/slick.svg#ALSRubl") format("svg"); /* iOS 4.1- */
+}
