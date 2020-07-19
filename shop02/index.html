@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendors/slick/slick.min.css">
+	<link rel="stylesheet" href="vendors/slick/slick-theme.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Title</title>
+</head>
+<body>
+<div class="window-overlay"></div>
+<header>
+	<div class="mobile-menu">
+		<div class="mobile-menu__block">
+			<div class="mobile-menu__head border-bottom">
+				<img src="img/main-mob-logo.svg" height="38" alt="Logo">
+				<span class="mobile-menu__close"><img src="img/menu_cancel.svg" alt=""></span>
+			</div>
+			<nav class="mobile-menu__menu">
+				<ul class="navbar-nav">
+
+					<li class="nav-item dropdown border-bottom">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img src="img/cat_list_icon.svg"  class="d-inline-block mr-2" alt="">
+							<span class="category-text">Каталог продукции</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="private-office">
+							<img src="img/user-icon.svg"  class="d-inline-block mr-2" alt="">
+							<span class="category-text">Личный кабинет</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="bascket-goods">
+							<img src="img/shopping-cart-icon.svg"  class="d-inline-block mr-2" alt="">
+							<span class="category-text">Корзина</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="Wish-list">
+							<img src="img/wishlist-icon.svg"  class="d-inline-block mr-2" alt="">
+							<span class="category-text">Избранное</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown border-bottom">
+						<a class="nav-link dropdown-toggle" href="#" id="Compare">
+							<img src="img/compare-icon.svg"  class="d-inline-block mr-2" alt="">
+							<span class="category-text">Сравнить</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="Contacts">
+							<span class="category-text">Контакты</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="Warranty">
+							<span class="category-text">Гарантия</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown border-bottom">
+						<a class="nav-link dropdown-toggle" href="#" id="FAQ">
+							<span class="category-text">Вопросы и ответы</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown border-bottom">
+						<a class="nav-link dropdown-toggle" href="#" id="Local-city">
+							<img class="img-fluid pr-1" src="img/marker-icon.svg" alt="city">Ваш город: <span class="local-city ml-3">Белгород</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a type="button" class="nav-link dropdown-toggle pr-0 pl-0" href="tel:+7 4722 55 66 77"><img class="img-fluid pr-1" src="img/phone-icon.svg" alt="mail">+7(4722)55-66-77</a>
+					</li>
+					<li class="nav-item dropdown border-bottom">
+						<a type="button" class="nav-link dropdown-toggle pr-0 pl-0" href="mailto:itsbelgorod@mail.ru"><img class="img-fluid pr-1" src="img/letter-icon.svg" alt="phone">itsbelgorod@mail.ru</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="container-fluid d-none d-xl-block p-xl-0 border-bottom-0">
+		<div class="row m-0">
+			<div class="container pl-0 pr-0">
+				<div class="row m0">
+					<div class="col-3 pr-0 pl-0 d-flex flex-row justify-content-between align-items-start">
+						<a type="button" class="btn pr-0 pl-0" href="tel:+7 4722 55 66 77"><img class="img-fluid pr-1" src="img/phone-icon.svg" alt="mail">+7(4722)55-66-77</a>
+						<a type="button" class="btn pr-0 pl-0" href="mailto:itsbelgorod@mail.ru"><img class="img-fluid pr-1" src="img/letter-icon.svg" alt="phone">itsbelgorod@mail.ru</a>
+					</div>
+					<div class="col-5"></div>
+					<div class="col-4 d-flex flex-row justify-content-between align-items-end pr-0">
+						<a type="button" class="btn pr-0 pl-0" href="#"><img class="img-fluid pr-1" src="img/marker-icon.svg" alt="city">Ваш город: Белгород</a>
+						<a type="button" class="btn pr-0 pl-0" href="#"><img class="img-fluid pr-1" src="img/user-icon.svg" alt="phone">Зарегистрироваться<span class="gray"> или </span>Войти</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container pl-0 pr-0">
+			<div class="row d-flex align-items-center">
+				<div class="col-3 pl-0 pr-0">
+					<img  class="img-fluid d-block pl-0" src="img/logo_main-header.png" alt="Инновационные технологические системы">
+				</div>
+				<div class="col-6">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="btn nav-link pl-0 pr-3" href="#">О нас</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn nav-link pl-0 pr-2" href="#">Каталог</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn nav-link pl-0 pr-2" href="#">Доставка</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn nav-link pl-0 pr-2" href="#">Условия оплаты</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn nav-link pl-0 pr-0" href="#">Контакты</a>
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="col-3 pl-0 pr-0 d-flex justify-content-end">
+					<div class="d-inline-flex pt-3">
+						<img class="pt-1" src="img/Support_icon.svg" alt="">
+						<div class="d-flex flex-column pl-3">
+							<span class="w-100"></span>
+							<span class="sale text-size"><a class="text-decoration-none" href="tel:+74722850004">+7 (4722) 85-00-04</a></span>
+							<span class="sale text-size"><a class="text-decoration-none" href="mailto:itsbelgorod@mail.ru">E-mail: itsbelgorod@mail.ru</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid main-color">
+			<div class="row">
+				<div class="container pl-0 pr-0">
+					<div class="row align-items-baseline">
+						<div class="col-3 pr-3 pl-0">
+							<nav class="navbar navbar-expand-lg main-color category-goods">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"><img src="img/cat_list_icon.svg"  class="d-inline-block mr-2" alt=""></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarNavDropdown">
+									<ul class="navbar-nav">
+
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												<span class="category-text">Каталог продукции</span>
+												<img src="img/arrow-down.svg" height="15" width="15" class="d-inline-block ml-3" alt="">
+											</a>
+											<ul class="dropdown-menu order-menu border " aria-labelledby="navbarDropdownMenuLink">
+												<li><a class="dropdown-item font-weight-bold" href="#">Предложение месяца</a></li>
+												<li><a class="dropdown-item font-weight-bold" href="#">ТОП-10 продаж</a></li>
+												<li><a class="dropdown-item font-weight-bold" href="#">Новые поступления</a></li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">Аккумуляторные батареи
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 5</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">Солнечные модули
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 5</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">Накопители энергии
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 4</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">
+														Инверторы
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 5</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">
+														Зарядные устройства
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 5</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">
+														Технологическое оборудование
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 5</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle" href="#">
+														Утилизация отходов
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 5</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 6</a></li>
+
+													</ul>
+												</li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item dropdown-toggle border-0" href="#">
+														Стеллажи и шкафные решения
+													</a>
+													<ul class="dropdown-menu addClass">
+														<li><a class="dropdown-item" href="#">Элемент списка № 1</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 2</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 3</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 4</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 5</a></li>
+														<li><a class="dropdown-item" href="#">Элемент списка № 6</a></li>
+														<li><a class="dropdown-item border-0" href="#">Элемент списка № 7</a></li>
+
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+						<div class="col-6 pl-0 pr-0">
+
+							<nav class="navbar w-100 pl-0 pr-0 rounded-pill">
+								<form class="form-inline pl-0 pr-0 rounded-pill d-inline-flex" method="post" action="/">
+									<input class="form-control search-card pt-0 pb-0 border-0" type="text" placeholder="Поиск товара">
+									<a class="btn submit-btn search" type="submit"><img src="img/search-icon.svg" alt="search"></a>
+								</form>
+							</nav>
+						</div>
+
+						<div class="col-3 pl-0 pr-0 d-flex justify-content-end">
+							<div class="d-inline-flex align-items-center pt-3">
+								<a type="button" class="btn pr-3 pl-3" href="#"><img class="img-fluid pr-1" src="img/Compare-icon-white.svg" alt="city"></a>
+								<a type="button" class="btn pr-3 pl-3" href="#"><img class="img-fluid pr-1" src="img/Wishlist-icon-white.svg" alt="city"></a>
+								<a type="button" class="btn pr-3 pl-3" href="#"><img class="img-fluid pr-1" src="img/Shopping-Cart-icon-white.svg" alt="city"><span class="badge badge-pill shopping">4</span></a>
+								<a type="button" class="btn pr-0 pl-0 money text-white font-weight-bold tab-title" href="#">3 215.99 <span class="currency">q</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid d-xl-none main-color">
+		<div class="row">
+			<div class="container-lg">
+				<div class="row">
+					<div class="col-12 w-100 d-inline-flex align-items-baseline justify-content-between">
+						<div class="col-2 pl-0 pr-0 d-inline-flex align-items-baseline justify-content-around">
+							<a class="burger-button" href="#"><img src="img/category_list_icon.svg" alt="burger-menu" width="24"></a>
+							<a class="d-none d-lg-block d-xl-none" href="#"><img src="img/main-mob-logo.svg" alt="logo" height="46"></a>
+						</div>
+						<div class="col-8 pl-2 pr-2 w-100">
+							<nav class="navbar w-100 pl-0 pr-0 rounded-pill">
+								<form class="form-inline pl-0 pr-0 rounded-pill d-inline-flex" method="post" action="/">
+									<input class="form-control search-card pt-0 pb-0 border-0" type="text" placeholder="Поиск товара">
+									<a class="btn submit-btn search d-none d-sm-block" type="submit"><img src="img/search-icon.svg" alt="search"></a>
+								</form>
+							</nav>
+						</div>
+						<div class="col-2 pr-0 pl-0 d-inline-flex align-items-baseline justify-content-around">
+							<a class="d-none d-lg-block d-xl-none" href="#"><img src="img/Compare-icon-white.svg" alt="wish-list" width="26"></a>
+							<a href="#"><img src="img/Shopping-Cart-icon-white.svg" alt="buscket" width="26"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<section>
+	<div class="container-xl pl-xl-0 pr-xl-0">
+		<div class="row pt-3">
+
+
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb align-items-baseline">
+					<li class="breadcrumb-item"><a href="#">Главная</a></li>
+					<li class="breadcrumb-item">
+
+						<div class="dropdown d-inline-flex">
+							<a class="btn btn-light dropdown-toggle  dropdown-toggle-arrow" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Утилизация отходов <img class="pl-2" src="img/arrow-down-black.svg" width="18" alt="">
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="#">Технологическое оборудование</a>
+								<a class="dropdown-item" href="#">Запчасти</a>
+							</div>
+						</div>
+
+					</li>
+					<li class="breadcrumb-item" aria-current="page">
+						<div class="dropdown d-inline-flex">
+							<a class="btn btn-light dropdown-toggle  dropdown-toggle-arrow" href="#" role="button" id="dropdownMenuLink-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Компостеры<img class="pl-2" src="img/arrow-down-black.svg" width="18" alt="">
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink-1">
+								<a class="dropdown-item" href="#">Солнечные модули</a>
+								<a class="dropdown-item" href="#">Боксы аккумуляторные</a>
+								<a class="dropdown-item" href="#">Стеллажи</a>
+								<a class="dropdown-item" href="#">Зарядные устройства</a>
+								<a class="dropdown-item" href="#">Накопители энергии</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="breadcrumb-item active" aria-current="page">Oklin GG-02</li>
+				</ol>
+			</nav>
+
+		</div>
+	</div>
+	<div class="container-xl pl-xl-0 pr-xl-0">
+		<div class="row">
+			<div class="col-xl-5 col-lg-12 pl-xl-0 pr-xl-0">
+				<div class="slider slider-for m-auto m-xl-0">
+					<div><img class="img-fluid" src="img/oklin.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin-2.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin-2.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin-2.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin-2.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin-2.png" alt=""></div>
+					<div><img class="img-fluid" src="img/oklin-2.png" alt=""></div>
+				</div>
+				<div class="slider slider-nav">
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-1.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-2.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-2.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-2.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-2.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-1.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-2.png" alt=""></div></div>
+					<div class="item"><div class="slider-img"><img src="img/min-oklin-2.png" alt=""></div></div>
+				</div>
+
+			</div>
+			<div class="col-xl-4 col-lg-7 col-md-6 p-lg-3 pt-xl-0">
+				<span class="card-category">Категория</span>
+				<div class="card-special-title pt-3">Бытовой компостер<br>Oklin GG-02</div>
+				<div><img class="pt-3" src="img/Brand-yoko-logo.svg" alt=""></div>
+				<div class="d-inline-flex pt-3">
+					<img class="pr-1" src="img/icon-star.svg" width="16"  alt="">
+					<img class="pr-1" src="img/icon-star.svg" width="16"  alt="">
+					<img class="pr-1" src="img/icon-star.svg" width="16"  alt="">
+					<img class="pr-1" src="img/icon-star.svg" width="16"  alt="">
+					<img class="pr-1" src="img/icon-star-2.svg" width="16" alt="">
+					<a class="reviews-link text-decoration-none pl-2" href="#">Reviews (3)</a>
+				</div>
+				<div class="pt-3">
+					<a href="#"><img class="pr-1" src="img/fb-share-icon.svg" alt=""></a>
+					<a href="#"><img class="pr-1" src="img/tweet-share-icon.svg" alt=""></a>
+					<a href="#"><img class="pr-1" src="img/pin-share-icon.svg" alt=""></a>
+				</div>
+				<div class="goods-info pt-4">
+					<ul>
+						<li>4.5 inch HD Touch Screen (1280 x 720)</li>
+						<li>Android 4.4 KitKat OS</li>
+						<li>1.4 GHz Quad Core™ Processor</li>
+						<li>20 MP front and 28 megapixel CMOS rear camera</li>
+					</ul>
+				</div>
+				<p class="goods-info pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				<span class="goods-info text-uppercase"><strong>sku:</strong> FW511948218</span>
+			</div>
+			<div class="col-xl-3 col-lg-5 col-md-6 pt-md-3 pb-md-3 pr-md-5 pl-md-5 p-lg-3 p-xl-0">
+				<form action="/">
+					<div class="order-card">
+						<div class="card-body">
+							<div class="border-form mb-1"><p class="card-text pb-3"><small class="text-muted">Наличие: <span class="text-success">На складе</span></small></p></div>
+							<div><span class="currency card-category pt-3"><s>4 299,00q</s></span></div>
+							<div><span class="price-order pt-2">3 580,00<span class="currency">q</span></span></div>
+							<label class="pt-4">Количество:</label><br>
+							<div class="quantity-block position-relative">
+								<input class="quantity-num form-control rounded-pill" id="prod_id_2" type="number" value="1">
+								<span class="quantity-bottom quantity-arrow-plus" data-action="increase" data-prod-id="prod_id_1"> + </span>
+								<span class="quantity-bottom quantity-arrow-minus" data-action="reduce" data-prod-id="prod_id_1"> - </span>
+							</div>
+							<label class="pt-3" for="color">Цвет:</label><br>
+							<select class="custom-select rounded-pill" id="color">
+								<option selected>Белый</option>
+								<option value="1">Черный</option>
+								<option value="2">Серебристый</option>
+							</select>
+
+
+
+							<div class="card-bottom text-center pt-3">
+
+								<a href="#" class="btn main-color rounded-pill text-white w-100" role="button" aria-pressed="true"><img class="pr-2" src="img/basket-icon.svg" alt="">Добавить в корзину</a>
+								<a href="#" class="btn buy text-white submit-btn rounded-pill text-white w-100 mt-2" role="button" aria-pressed="true">Купить сейчас</a>
+							</div>
+
+							<div class="text-left d-flex justify-content-between align-items-baseline border-0 pt-2">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container-xl pl-xl-0 pr-xl-0">
+		<div class="row">
+			<div class="col-12 pl-0 pr-0">
+
+				<div class="nav nav-tabs justify-content-center border-0" id="nav-tab" role="tablist">
+					<a class="tab-title nav-item nav-link pl-0 pr-0 mr-3 ml-4" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true">Описание</a>
+					<a class="tab-title nav-item nav-link active pl-0 pr-0 mr-3 ml-3" id="nav-char-tab" data-toggle="tab" href="#nav-char" role="tab" aria-controls="nav-char" aria-selected="false">Характеристики</a>
+					<a class="tab-title nav-item nav-link pl-0 pr-0 mr-3 ml-3" id="nav-doc-tab" data-toggle="tab" href="#nav-doc" role="tab" aria-controls="nav-doc" aria-selected="false">Документация</a>
+				</div>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+						<div class="container-fluid pl-xl-0 pr-xl-0">
+							<div class="row no-gutters">
+								<div class="col-12 p-lg-5 p-4 table-block">
+									<div>
+										<h5 class="font-weight-bold">About Your Oklin Composter Unit</h5>
+										<p>Your Oklin food organics composter uses an organic starter material to safely and cleanly decompose your food waste within 24 hours. It uses no chemicals or harmful products, and can process up to 4kg of food waste per day.The heating, agitation and airflow applied automatically by the unit assist the naturally occurring
+										microbes contained in the starter material to compost your food waste.<p>
+										<h6 class="font-weight-bold">Odour Prevention</h6>
+										<p>Any offensive odours from food composting are eliminated by the deodorising unit contained within the composter, and any vapours and moisture are expelled through the exhaust hose. You may expect an earthy, not unpleasant odour when opening and closing the lid.
+										<h6 class="font-weight-bold">General Description</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade show active" id="nav-char" role="tabpanel" aria-labelledby="nav-char-tab">
+						<div class="container-fluid pl-xl-0 pr-xl-0">
+							<div class="row no-gutters">
+								<div class="col-12 p-lg-5 p-4  table-block">
+									<table class="table">
+										<thead>
+										<tr>
+											<th class="border-0" scope="col">Технические характеристики</th>
+											<th class="border-0"></th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+											<th class="border-0" scope="row">Звук</th>
+											<td class="border-0">Audio</td>
+										</tr>
+										<tr>
+											<th scope="row">Батарея</th>
+											<td>4х AAA</td>
+										</tr>
+										<tr>
+											<th scope="row">Серия</th>
+											<td>Mega 2</td>
+										</tr>
+										<tr>
+											<th scope="row">Время</th>
+											<td>4 часа</td>
+										</tr>
+										<tr>
+											<th scope="row">Разъем</th>
+											<td>3.5 mm</td>
+										</tr>
+										</tbody>
+									</table>
+									<table class="table">
+										<thead>
+										<tr>
+											<th class="border-0" scope="col">Основные характеристики</th>
+											<th class="border-0"></th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+											<th class="border-0" scope="row">Вес</th>
+											<td class="border-0">7.25 kg</td>
+										</tr>
+										<tr>
+											<th scope="row">Габариты/th>
+											<td>90 x 60 x 90 cm</td>
+										</tr>
+										<tr>
+											<th scope="row">Размеры</th>
+											<td>Все размеры</td>
+										</tr>
+										<tr>
+											<th scope="row">Цвет</th>
+											<td>Белый</td>
+										</tr>
+										<tr>
+											<th scope="row">Гарантия</th>
+											<td>5 лет</td>
+										</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-doc" role="tabpanel" aria-labelledby="nav-doc-tab">
+						<div class="container-fluid pl-xl-0 pr-xl-0">
+							<div class="row no-gutters">
+								<div class="col-12 p-lg-5 p-4 d-inline">
+									<h5 class="font-weight-bold">Get more information by click on the <a href="https://www.papstar-storyteller.de/fileadmin/user_upload/GG02_-_User_Manual_Engl_.pdf">link</a>.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<article>
+	<div class="container-xl">
+		<div class="row pt-2 pt-xl-5">
+			<div class="col-12 visited-order pt-3 pt-lg-0 pr-lg-0 pl-lg-0">
+				<h4 class="pb-3 m-0">Недавно просмотренные товары</h4>
+				<div class="slider uncycle">
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">GameConsole Destiny
+								<br> Special Edition</a>
+
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-5.png" alt=""></a>
+
+
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Powerbank 1130 mAh<br>Blue</a>
+
+
+							<div id="carouselExampleControl" class="carousel" data-interval="false">
+								<div class="carousel-inner">
+									<div class="carousel-item">
+										<a class="d-block text-center" href="#"><img src="img/lot-345245-2.png" class="visited-order-img" alt=""></a>
+									</div>
+									<div class="carousel-item active">
+										<a class="d-block text-center" href="#"><img src="img/lot-345245.png" class="visited-order-img" alt=""></a>
+									</div>
+									<div class="carousel-item">
+										<a class="d-block text-center" href="#"><img src="img/lot-345245-3.png" class="visited-order-img" alt=""></a>
+									</div>
+								</div>
+								<a class="carousel-control-prev float-left" href="#carouselExampleControl" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next float-right" href="#carouselExampleControl" role="button" data-slide="next">
+									<span class="rounded-circle p-2 bg-light carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+
+
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Laptop Yoga 500 15.6"
+								<br>6200U 8GB</a>
+
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-6.png" alt=""></a>
+
+
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Smartphone 6S 32GB
+								<br> LTE</a>
+
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-4.png" alt=""></a>
+
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Smartwatch 2.0 LTE
+								<br> Wifi</a>
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-2.png" alt=""></a>
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div >
+									<span class="currency new-price">15 654<span class="currency">q</span></span><br>
+									<span class="currency old-price">25 654q</span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Camera C430W 4k with Waterproof cover</a>
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-3.png" alt=""></a>
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">GameConsole Destiny
+								<br> Special Edition</a>
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-5.png" alt=""></a>
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Powerbank 1130 mAh<br>Blue</a>
+
+
+							<div id="carouselExampleControl-2" class="carousel" data-interval="false">
+								<div class="carousel-inner">
+									<div class="carousel-item">
+										<a class="d-block text-center" href="#"><img src="img/lot-345245-2.png" class="visited-order-img m-auto" alt=""></a>
+									</div>
+									<div class="carousel-item active">
+										<a class="d-block text-center" href="#"><img src="img/lot-345245.png" class="visited-order-img m-auto" alt=""></a>
+									</div>
+									<div class="carousel-item">
+										<a class="d-block text-center" href="#"><img src="img/lot-345245-3.png" class="visited-order-img m-auto" alt=""></a>
+									</div>
+								</div>
+								<a class="carousel-control-prev float-left" href="#carouselExampleControl-2" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next float-right" href="#carouselExampleControl-2" role="button" data-slide="next">
+									<span class="rounded-circle p-2 bg-light carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+
+
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+
+
+						</div>
+					</div></div>
+					<div class="item"><div class="card">
+						<div class="card-body inline-tabs">
+							<p class="card-text"><small class="text-muted">Категория</small></p>
+							<a class="btn nav-link card-link">Laptop Yoga 500 15.6"
+								<br>6200U 8GB</a>
+							<a class="d-block text-center" href="#"><img class="m-auto visited-order-img" src="img/lot-345245-6.png" alt=""></a>
+							<div class="card-bottom text-left d-flex justify-content-between align-items-baseline pt-3 mb-2">
+								<div class="d-inline-flex align-items-baseline">
+									<span class="price">15 654<span class="currency">q</span></span>
+								</div>
+								<a href="#" class="btn btn-circle rounded-circle" role="button" aria-pressed="true"><img src="img/basket-icon.svg" alt=""></a>
+							</div>
+
+							<div class="card-footer text-left justify-content-between align-items-baseline pt-3 w-100">
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline"  src="img/compare-icon-2.svg" alt="">Сравнить</a></div>
+								<div class="d-inline-block"><a href="#" class="btn chosen"><img class="mr-1 d-inline" src="img/wishlist-icon-2.svg" alt="">Избранное</a></div>
+							</div>
+						</div>
+					</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-xl pb-4">
+		<div class="row pb-3">
+			<div class="col-12">
+				<div class="slider slider-logos">
+					<div class="slider-brand"><img src="img/logo-set-1.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-2.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-3.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-4.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-5.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-2.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-4.png" alt=""></div>
+					<div class="slider-brand"><img src="img/logo-set-1.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+
+<footer>
+	<div class="container-fluid main-color">
+		<div class="row">
+			<div class="container">
+				<div class="row align-items-baseline pt-2 pb-2 mt-1 mb-1">
+					<div class="col-xl-6 col-lg-6 pl-0">
+						<nav class="navbar pr-md-0 pl-md-0 pt-md-0 pb-md-0 align-items-baseline">
+							<a class="navbar-brand text-white text-decoration-none" href="#">
+								<img src="img/newsletter_icon.svg" width="30" height="30" class="d-none d-sm-inline-block align-top" alt="">
+								<span class="pl-3">Подпишись на рассылку</span>
+							</a>
+							<span class="pr-0 navbar-text text-white form-control-sm">...и экономь на покупках в нашем магазине.</span>
+						</nav>
+					</div>
+					<div class="col-1 d-none d-xl-block"></div>
+					<div class="col-xl-5 col-lg-6 col-sm-12 pl-lg-3 pr-lg-0">
+						<nav class="navbar w-100 pl-lg-0 pr-lg-0 rounded-pill">
+							<form class="form-inline pl-lg-0 pr-lg-0 rounded-pill d-inline-flex" method="post" action="/">
+								<input class="form-control pt-0 pb-0 border-0" type="email" placeholder="Введите свой Email">
+								<a class="btn text-white submit-btn" type="submit"><span class="d-none d-sm-block">Подписаться</span><span class="d-block d-sm-none"><img src="img/newsletter_icon.svg" width="30" height="30" class="d-inline-block align-top" alt=""></span></a>
+							</form>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-light">
+		<div class="row pt-4 mt-2">
+			<div class="container text-size pb-5">
+				<div class="row pb-3">
+					<div class="col-xl-5 col-lg-12 pl-lg-0">
+						<div><img class="pt-1" src="img/logo_main.png" alt=""></div>
+
+						<div class="d-inline-flex pt-3">
+							<img class="pt-1" src="img/Support_icon.svg" alt="">
+							<div class="d-flex flex-column pl-3">
+								<span class="w-100">Остались вопросы? Позвоните на горячую линию</span>
+								<span class="sale"><a class="text-decoration-none" href="tel:+74722597841">+7 (4722) 59-78-41</a></span>
+							</div>
+						</div>
+						<div class="pt-4"><strong>Контакты</strong></div>
+						<div class="pt-2 pt-1">308000, г. Белгород, ул. Шевченко, д.1 офис 31</div>
+						<div class="d-inline-flex justify-content-between pt-3">
+							<img class="pt-1 mr-3" src="img/facebook-icon.svg" alt="">
+							<img class="pt-1 mr-3" src="img/twitter.svg" alt="">
+							<img class="pt-1 mr-3" src="img/google_plus.svg" alt="">
+							<img class="pt-1 mr-3" src="img/rss.svg" alt="">
+							<img class="pt-1 mr-3" src="img/flickr.svg" alt="">
+							<img class="pt-1 mr-3" src="img/dribbble.svg" alt="">
+							<img class="pt-1" src="img/linkedin.svg" alt="">
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-6 col-md-12">
+						<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-12 pt-3">
+								<ul class="nav pt-2 d-flex flex-column text-left">
+									<li class="nav-item">
+										<a class="btn nav-link p-0 text-left" href="#">Категории товаров</a>
+									</li>
+									<li class="nav-item pt-3">
+										<a class="btn nav__menu pt-2 mt-2" href="#">Аккумуляторные батареи</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Солнечные модули</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Инверторы</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Боксы аккумуляторные</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Стеллажи</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Зарядные устройства</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Накопители энергии</a>
+									</li>
+								</ul>
+
+							</div>
+							<div class="col-xl-6 col-lg-6 col-12-md">
+
+								<ul class="nav d-flex flex-column pr-0 pl-0 pt-lg-5 text-left">
+									<li  class="nav-item pt-lg-2 pt-0">
+										<a class="btn nav__menu pt-lg-3 mt-lg-1 pt-0 mt-0 text-left" href="#">Технологическое оборудование</a>
+									</li>
+									<li class=" nav-item">
+										<a class="btn nav__menu" href="#">Утилизация отходов</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn nav__menu" href="#">Запчасти</a>
+									</li>
+								</ul>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-6 col-md-12 pt-4  mt-1 pl-lg-0">
+						<ul class="nav pt-2 d-flex flex-column text-left">
+							<li class="nav-item">
+								<a class="btn nav-link p-0 text-left" href="#">О компании</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu pt-2 mt-2" href="#">Мой аккаунт</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu" href="#">Отслеживание отправления</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu" href="#">Избранное</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu" href="#">Условия доставки</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu" href="#">Возраты/обмен</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu" href="#">FAQ</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn nav__menu" href="#">Поддержка</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row justify-content-between align-items-baseline">
+			<div class="col-12 col-md-6 text-center text-md-left">
+				<div>© Инновационные технологические системы - Все права защищены</div>
+
+			</div>
+			<div class="col-12 col-md-6 text-md-right text-center">
+				<div class="card-footer bg-transparent p-0 border-0">
+					<img class="pr-4" src="img/mastercard-2.png" height="20" alt="">
+					<img class="pr-4" src="img/visa-logo.svg" alt="">
+					<img class="pr-4" src="img/PayPal-logo.png" height="20" alt="">
+					<img src="img/Maestro_logo.svg.png" height="20" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="js/jQuery.js"></script>
+<script src="vendors/bootstrap/js/popper.min.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendors/slick/slick.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
